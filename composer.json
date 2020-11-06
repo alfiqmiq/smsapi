@@ -1,0 +1,25 @@
+{
+    "name": "alfa/diff",
+    "description": "SMSAPI - diff files",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marek Lisiecki",
+            "email": "m.lisiecki@ibp.net.pl"
+        }
+    ],
+    "require": {
+        "smsapi/php-client": "^2.6",
+        "sebastian/diff": "^4.0",
+        "phpmailer/phpmailer": "^6.1",
+        "vlucas/phpdotenv": "^5.2",
+        "ext-mbstring": "*",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "app"
+        }
+    }
+}
