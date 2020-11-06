@@ -144,7 +144,7 @@ class Report
     public function makeReport (): void
     {
         if ( ! isset($this->baseFile) ) {
-            throw new ReportException('Please set file base file');
+            throw new ReportException('Please set base file');
         }
 
         if ( ! count($this->filesCompareTo) ) {
